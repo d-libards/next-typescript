@@ -1,6 +1,6 @@
 import './globals.css';
 import Navbar from '../components/Navbar';
-import { Inter, Inconsolata, Roboto } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'] });

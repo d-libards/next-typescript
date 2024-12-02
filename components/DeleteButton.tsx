@@ -1,4 +1,4 @@
-import { deleteUser, removeUser } from '@/utils/action';
+import { removeUser } from '@/utils/action';
 
 function DeleteButton({ id }: { id: string }) {
   const removeUserWithId = removeUser.bind(null, id);
